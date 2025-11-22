@@ -1,7 +1,7 @@
 # Requirements-based Automated Validation of SysML Models: A Tool Chain Solution
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Generic badge](https://img.shields.io/badge/Status-Research_Artifact-green.svg)](https://github.com/your-username/your-repo-name)
+[![Generic badge](https://img.shields.io/badge/Status-Research_Artifact-green.svg)](https://github.com/luwenhuihh/Requirements-based-Automated-Validation-of-SysML-Models/)
 
 ## 📖 Project Overview
 
@@ -40,11 +40,11 @@ Install the required dependencies using pip:
 
 ```bash
 pip install pandas openpyxl python-docx tkinter
-
+```
 🚀 Usage Guide
 Step 1: Generate Test Cases
 Run the test generation script to parse the requirements and create the test suite.
-
+```bash
 python TestDataGeneration.py
 Input: RR_System_Requirements.xls
 
