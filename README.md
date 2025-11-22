@@ -44,8 +44,11 @@ pip install pandas openpyxl python-docx tkinter
 🚀 Usage Guide
 Step 1: Generate Test Cases
 Run the test generation script to parse the requirements and create the test suite.
+
 ```bash
 python TestDataGeneration.py
+```
+
 Input: RR_System_Requirements.xls
 
 Output: Generates an intermediate Excel file containing test inputs and expected outputs.
@@ -60,14 +63,15 @@ Run the simulation. The model will execute the logic and write actual outputs ba
 Step 3: Verify and Report
 Run the reporting script to validate the results.
 
+```bash
 python Report_Generation.py
+```
+
 Input: The spreadsheet containing both "Expected Outputs" and populated "Model Outputs".
 
 Output: A comprehensive test report (Word document) with Pass/Fail verdicts.
 
 📊 Case Study: RR System
 The Radar-like Reconnaissance (RR) System serves as the System Under Test (SUT). It includes:
-
 20 Functional Requirements: Covering mode management, performance parameters, and subsystem logic.
-
 Seeded Faults: The model includes versions with deliberate faults (Logic, Performance, Boundary) to demonstrate validation capabilities.
